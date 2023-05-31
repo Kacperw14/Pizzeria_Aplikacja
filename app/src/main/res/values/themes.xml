@@ -3,6 +3,8 @@
     <style name="Base.Theme.Pizzeria_Aplikacja" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="fontFamily">@font/quicksandregular</item>
+
     </style>
 
     <style name="Theme.Pizzeria_Aplikacja" parent="Base.Theme.Pizzeria_Aplikacja" />
