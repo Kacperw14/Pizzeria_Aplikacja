@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pizzeria_Aplikacja</string>
+    <string name="connect_to_db">\n</string>
+    <string name="login" />
+    <string name="name" />
+    <string name="connect">Connect</string>
+    <string name="Login">login</string>
+    <string name="Name">name</string>
+</resources>
