@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageView
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import java.sql.Connection
@@ -25,7 +26,11 @@ class Login : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_login, container, false)
+        val imageView = view.findViewById<ImageView>(R.id.image1)
         val button = view.findViewById<Button>(R.id.button3)
+        imageView.setImageResource(R.drawable.pizza)
+
+
         button.setOnClickListener {
             findNavController().navigate(R.id.action_login_to_rejestracja)
         }
