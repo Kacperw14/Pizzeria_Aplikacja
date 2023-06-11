@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Pizzeria</string>
+    <string name="Produkty">Produkty</string>
+    <string name="raport_sprzedazy">Raport Sprzedaży</string>
+    <string name="Strona_glowna">Strona Główna</string>
+    <string name="Opis_obrazka">Opis Obrazka</string>
+    <string name="Rezerwacje">Rezerwacje</string>
+    <string name="Ustawienia">Ustawienia</string>
+    <string name="Imie">Imie</string>
+    <string name="Nazwisko">Nazwisko</string>
+    <string name="Wyloguj">Wyloguj</string>
+    <string name="Haslo">Hasło</string>
+    <string name="olowek">olowek</string>
+    <string name="olowek2">olowek</string>
+    <string name="olowek3">olowek</string>
+    <string name="Edycja">Edycja</string>
+    <string name="Profil">Profil</string>
+    <string name="imie_hint">imie</string>
+    <string name="nazwisko_hint">nazwisko</string>
+    <string name="haslo_hint">haslo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
