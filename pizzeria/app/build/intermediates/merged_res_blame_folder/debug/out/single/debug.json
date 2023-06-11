@@ -1,0 +1,674 @@
+[
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_imie_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_imie_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_pen.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_pen.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_inf_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_inf_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_klucz_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_klucz_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_konto_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_konto_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_koszyk.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_koszyk.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_lrezerw_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_lrezerw_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_koszyk_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_koszyk_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_lrezerw_round.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_lrezerw_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_ustawienia_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_ustawienia_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_wykres.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_wykres.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_klucz_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_klucz_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_ustawienia_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_ustawienia_round.png"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/layout_fragment_strona.xml.flat",
+        "source": "com.example.pizzeria.app-main-49:/layout/fragment_strona.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_ustawienia_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_ustawienia_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_koszyk_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_koszyk_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_ustawienia_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_ustawienia_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_konto_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_konto_round.png"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/mipmap-xxxhdpi_ic_pizza_round.png.flat",
+        "source": "com.example.pizzeria.app-main-49:/mipmap-xxxhdpi/ic_pizza_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_wykres.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_wykres.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_konto.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_konto.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_pen_round.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_pen_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_inf.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_inf.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_klucz_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_klucz_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_lrezerw_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_lrezerw_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_wykres.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_wykres.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_lrezerw.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_lrezerw.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_pen.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_pen.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_inf.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_inf.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_ustawienia.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_ustawienia.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\layout_fragment_strona.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\layout\\fragment_strona.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_lrezerw_background.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_lrezerw_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_imie_background.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_imie_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_klucz.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_klucz.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_konto_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_konto_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_imie.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_imie.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_wykres_foreground.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_wykres_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_ustawienia_round.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_ustawienia_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_klucz_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_klucz_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_lrezerw_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_lrezerw_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\navigation_my_nav.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\navigation\\my_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_konto.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_konto.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_koszyk_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_koszyk_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_imie_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_imie_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_imie.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_imie.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_klucz.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_klucz.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_lrezerw_foreground.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_lrezerw_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_wykres_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_wykres_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_ustawienia.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_ustawienia.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_imie.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_imie.png"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/mipmap-xxhdpi_ic_pizza_round.png.flat",
+        "source": "com.example.pizzeria.app-main-49:/mipmap-xxhdpi/ic_pizza_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_lrezerw.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_lrezerw.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_konto.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_konto.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_inf_background.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_inf_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_lrezerw_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_lrezerw_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_klucz_background.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_klucz_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_lrezerw.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_lrezerw.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_imie.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_imie.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_koszyk_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_koszyk_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_inf.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_inf.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_koszyk_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_koszyk_round.png"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/mipmap-mdpi_ic_pizza_foreground.png.flat",
+        "source": "com.example.pizzeria.app-main-49:/mipmap-mdpi/ic_pizza_foreground.png"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/mipmap-hdpi_ic_pizza_foreground.png.flat",
+        "source": "com.example.pizzeria.app-main-49:/mipmap-hdpi/ic_pizza_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_pen.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_pen.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_wykres_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_wykres_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_inf_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_inf_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_koszyk.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_koszyk.png"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/mipmap-mdpi_ic_pizza.png.flat",
+        "source": "com.example.pizzeria.app-main-49:/mipmap-mdpi/ic_pizza.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_koszyk_foreground.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_koszyk_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_inf_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_inf_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_pen_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_pen_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_pen_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_pen_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_wykres_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_wykres_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_wykres_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_wykres_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_wykres_background.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_wykres_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_imie_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_imie_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_imie_foreground.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_imie_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_klucz_round.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_klucz_round.xml"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/mipmap-xhdpi_ic_pizza.png.flat",
+        "source": "com.example.pizzeria.app-main-49:/mipmap-xhdpi/ic_pizza.png"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/drawable_pizzad.png.flat",
+        "source": "com.example.pizzeria.app-main-49:/drawable/pizzad.png"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/drawable_ic_pizza_background.xml.flat",
+        "source": "com.example.pizzeria.app-main-49:/drawable/ic_pizza_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_inf.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_inf.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_konto_foreground.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_konto_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_koszyk_background.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_koszyk_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_inf.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_inf.png"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/mipmap-xhdpi_ic_pizza_round.png.flat",
+        "source": "com.example.pizzeria.app-main-49:/mipmap-xhdpi/ic_pizza_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_imie_round.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_imie_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_konto.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_konto.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_pen.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_pen.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_pen_foreground.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_pen_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_koszyk.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_koszyk.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_inf_round.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_inf_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_wykres.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_wykres.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_wykres.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_wykres.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_klucz.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_klucz.png"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/mipmap-hdpi_ic_pizza.png.flat",
+        "source": "com.example.pizzeria.app-main-49:/mipmap-hdpi/ic_pizza.png"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/mipmap-anydpi-v26_ic_pizza_round.xml.flat",
+        "source": "com.example.pizzeria.app-main-49:/mipmap-anydpi-v26/ic_pizza_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_imie.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_imie.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_ustawienia.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_ustawienia.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\layout_fragment_ustawienia.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\layout\\fragment_ustawienia.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/mipmap-xxxhdpi_ic_pizza.png.flat",
+        "source": "com.example.pizzeria.app-main-49:/mipmap-xxxhdpi/ic_pizza.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_klucz.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_klucz.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_ustawienia.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_ustawienia.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\layout_fragment_raport.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\layout\\fragment_raport.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\font_quicksand.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\font\\quicksand.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_koszyk.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_koszyk.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_pen_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_pen_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_ustawienia_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_ustawienia_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_klucz_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_klucz_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_inf_foreground.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_inf_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_inf.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_inf.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_konto_round.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_konto_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_klucz.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_klucz.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_konto_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_konto_round.png"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/mipmap-xxhdpi_ic_pizza.png.flat",
+        "source": "com.example.pizzeria.app-main-49:/mipmap-xxhdpi/ic_pizza.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_inf_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_inf_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_inf_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_inf_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_lrezerw.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_lrezerw.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_koszyk.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_koszyk.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_imie_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_imie_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_ustawienia_background.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_ustawienia_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_klucz_foreground.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_klucz_foreground.xml"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/mipmap-xxxhdpi_ic_pizza_foreground.png.flat",
+        "source": "com.example.pizzeria.app-main-49:/mipmap-xxxhdpi/ic_pizza_foreground.png"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/mipmap-anydpi-v26_ic_pizza.xml.flat",
+        "source": "com.example.pizzeria.app-main-49:/mipmap-anydpi-v26/ic_pizza.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_konto_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_konto_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_lrezerw_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_lrezerw_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_konto.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_konto.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_koszyk.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_koszyk.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_koszyk_round.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_koszyk_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_pen_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_pen_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_ustawienia_foreground.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_ustawienia_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_lrezerw.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_lrezerw.png"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/mipmap-mdpi_ic_pizza_round.png.flat",
+        "source": "com.example.pizzeria.app-main-49:/mipmap-mdpi/ic_pizza_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_pen.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_pen.xml"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/mipmap-xxhdpi_ic_pizza_foreground.png.flat",
+        "source": "com.example.pizzeria.app-main-49:/mipmap-xxhdpi/ic_pizza_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_pen_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_pen_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_imie_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_imie_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_ustawienia.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_ustawienia.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_wykres_round.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_wykres_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_pen_background.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_pen_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_ustawienia.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_ustawienia.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\drawable_ic_konto_background.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\drawable\\ic_konto_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxhdpi_ic_klucz.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxhdpi\\ic_klucz.png"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/mipmap-xhdpi_ic_pizza_foreground.png.flat",
+        "source": "com.example.pizzeria.app-main-49:/mipmap-xhdpi/ic_pizza_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_konto.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_konto.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pizzeria.app-merged_res-47:/mipmap-hdpi_ic_pizza_round.png.flat",
+        "source": "com.example.pizzeria.app-main-49:/mipmap-hdpi/ic_pizza_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-mdpi_ic_pen.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-mdpi\\ic_pen.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xhdpi_ic_imie.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xhdpi\\ic_imie.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-xxxhdpi_ic_lrezerw.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-xxxhdpi\\ic_lrezerw.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-hdpi_ic_wykres.png.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-hdpi\\ic_wykres.png"
+    },
+    {
+        "merged": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-merged_res-47:\\mipmap-anydpi-v26_ic_wykres_round.xml.flat",
+        "source": "C:\\Users\\Matylda\\.gradle\\daemon\\8.0\\com.example.pizzeria.app-main-49:\\mipmap-anydpi-v26\\ic_wykres_round.xml"
+    }
+]

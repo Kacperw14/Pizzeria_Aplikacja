@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/strona">
+
+    <fragment
+        android:id="@+id/ustawienia"
+        android:name="com.example.pizzeria.Ustawienia"
+        android:label="fragment_ustawienia"
+        tools:layout="@layout/fragment_ustawienia" >
+        <action
+            android:id="@+id/action_ustawienia_to_strona"
+            app:destination="@id/strona" />
+    </fragment>
+    <fragment
+        android:id="@+id/raport"
+        android:name="com.example.pizzeria.Raport"
+        android:label="fragment_raport"
+        tools:layout="@layout/fragment_raport" >
+        <action
+            android:id="@+id/action_raport_to_strona"
+            app:destination="@id/strona" />
+    </fragment>
+    <fragment
+        android:id="@+id/strona"
+        android:name="com.example.pizzeria.Strona"
+        android:label="fragment_strona"
+        tools:layout="@layout/fragment_strona" >
+        <action
+            android:id="@+id/action_strona_to_ustawienia"
+            app:destination="@id/ustawienia" />
+        <action
+            android:id="@+id/action_strona_to_raport"
+            app:destination="@id/raport" />
+    </fragment>
+</navigation>
