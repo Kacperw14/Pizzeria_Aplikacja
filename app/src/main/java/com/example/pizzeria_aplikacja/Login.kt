@@ -19,6 +19,7 @@ private val driver = "oracle.jdbc.driver.OracleDriver"
 private val url = "jdbc:oracle:thin:@192.168.0.38:1521:orcl"
 private var user = ""
 private val password = "\"1234\""
+var connection: Connection? = null
 
 public fun getConnection(user: String): Connection? {
     var connection: Connection? = null
@@ -52,9 +53,8 @@ class Login : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         if (czySzukac) {
-            Konto.Szukaj()
+            //Konto.Szukaj()
         }
-
         val buttonLogin = view.findViewById<Button>(R.id.buttonLogin)
         buttonLogin.setOnClickListener {
             loginUser()
@@ -69,7 +69,6 @@ class Login : Fragment() {
 
         for (konto in uzytkownicy) {
             if (email == konto.email && haslo == konto.haslo) {
-                val connection: Connection?
                 try {
                     when (konto.stanowisko) {
                         Stanowisko.KIEROWNIK -> {
@@ -90,7 +89,8 @@ class Login : Fragment() {
                     if (connection != null) {
                         Toast.makeText(requireContext(), "Połączono jako $user", Toast.LENGTH_SHORT)
                             .show()
-                        findNavController().navigate(R.id.action_login_to_rejestracja) //TODO zmiana na homepage
+                        zalogowany = konto
+                        findNavController().navigate(R.id.action_login_to_strona)
                         return
                     } else {
                         Toast.makeText(

@@ -1,5 +1,6 @@
 package com.example.pizzeria_aplikacja
 
+import android.app.Application
 import android.content.Context
 import android.os.AsyncTask
 import androidx.appcompat.app.AppCompatActivity
@@ -32,6 +33,13 @@ class MainActivity : AppCompatActivity() {
         val navHostFragment =
             supportFragmentManager.findFragmentById(R.id.fragment) as NavHostFragment
         navController = navHostFragment.navController
+    }
+
+    class MyApp : Application() {
+        override fun onTerminate() {
+            super.onTerminate()
+            userConnection?.close()
+        }
     }
 
 

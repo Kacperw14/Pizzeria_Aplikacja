@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Strona">
+
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Theme.Pizzeria_Aplikacja"
+
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/gray"
+        android:fontFamily="@font/quicksandregular"
+        android:text="Raport sprzedaży"
+
+        android:textColor="@color/white"
+
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Theme.Pizzeria_Aplikacja"
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="24dp"
+
+        android:backgroundTint="@color/gray"
+        android:fontFamily="@font/quicksandregular"
+        android:insetTop="4dp"
+        android:text="Rezerwacje"
+
+
+        android:textColor="@color/white"
+
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="340dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/quicksandbold"
+        android:text="Strona główna"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Base.Theme.Pizzeria_Aplikacja"
+
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/gray"
+        android:fontFamily="@font/quicksandregular"
+        android:text="Produkty"
+        android:textColor="@color/white"
+
+
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="65dp"
+        android:layout_height="49dp"
+
+
+        android:contentDescription="Opis_obrazka"
+
+        android:src="@drawable/ic_lrezerw_foreground"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/button2"
+        app:srcCompat="@drawable/ic_lrezerw_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="65dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="20dp"
+
+        android:contentDescription="Opis_obrazka"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button"
+        app:srcCompat="@drawable/ic_koszyk_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="65dp"
+        android:layout_height="49dp"
+
+
+        android:layout_marginStart="20dp"
+
+        android:contentDescription="Opis_obrazka"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button3"
+        app:srcCompat="@drawable/ic_wykres_foreground" />
+
+    <Button
+        android:id="@+id/StronaUstawieniaButton"
+
+        android:layout_width="134dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/white"
+        android:text="Ustawienia"
+
+        android:textColor="@color/gray"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="@color/white"
+        app:strokeColor="@color/gray" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+
+        android:layout_marginStart="16dp"
+
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Opis_obrazka"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/StronaUstawieniaButton"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_ustawienia_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="154dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="60dp"
+        android:rotationY="180"
+        android:src="@drawable/pizza"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

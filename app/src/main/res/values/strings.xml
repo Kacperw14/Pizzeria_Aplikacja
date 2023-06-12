@@ -12,4 +12,7 @@
     <string name="go_back">go back</string>
     <string name="weso_a_pizzeria">Wesoła Pizzeria</string>
     <string name="Kelner">Kelner</string>
+    <string name="raport_sprzedazy" />
+    <string name="Rezerwacje" />
+    <string name="Strona_glowna" />
 </resources>

@@ -11,12 +11,11 @@
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
+            android:id="@+id/action_login_to_strona"
+            app:destination="@id/strona" />
+        <action
             android:id="@+id/action_login_to_rejestracja"
-            app:destination="@id/rejestracja"
-            app:enterAnim="@animator/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+            app:destination="@id/rejestracja" />
     </fragment>
     <fragment
         android:id="@+id/rejestracja"
@@ -30,5 +29,92 @@
             app:exitAnim="@animator/nav_default_exit_anim"
             app:popEnterAnim="@animator/nav_default_pop_enter_anim"
             app:popExitAnim="@animator/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/ustawienia"
+        android:name="com.example.pizzeria_aplikacja.Ustawienia"
+        android:label="fragment_ustawienia"
+        tools:layout="@layout/fragment_ustawienia" >
+        <action
+            android:id="@+id/action_ustawienia_to_strona"
+            app:destination="@id/strona" />
+        <action
+            android:id="@+id/action_ustawienia_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/strona"
+        android:name="com.example.pizzeria_aplikacja.Strona"
+        android:label="fragment_strona"
+        tools:layout="@layout/fragment_strona" >
+        <action
+            android:id="@+id/action_strona_to_ustawienia"
+            app:destination="@id/ustawienia" />
+        <action
+            android:id="@+id/action_strona_to_raport"
+            app:destination="@id/raport" />
+        <action
+            android:id="@+id/action_strona_to_rezerwacje"
+            app:destination="@id/rezerwacje" />
+        <action
+            android:id="@+id/action_strona_to_skladnik"
+            app:destination="@id/skladnik" />
+        <action
+            android:id="@+id/action_strona_to_danie"
+            app:destination="@id/danie" />
+    </fragment>
+    <fragment
+        android:id="@+id/raport"
+        android:name="com.example.pizzeria_aplikacja.Raport"
+        android:label="fragment_raport"
+        tools:layout="@layout/fragment_raport" >
+        <action
+            android:id="@+id/action_raport_to_ustawienia"
+            app:destination="@id/ustawienia" />
+        <action
+            android:id="@+id/action_raport_to_strona"
+            app:destination="@id/strona" />
+    </fragment>
+    <fragment
+        android:id="@+id/rezerwacje"
+        android:name="com.example.pizzeria_aplikacja.Rezerwacje"
+        android:label="fragment_rezerwacje"
+        tools:layout="@layout/fragment_rezerwacje" >
+        <action
+            android:id="@+id/action_rezerwacje_to_ustawienia"
+            app:destination="@id/ustawienia" />
+        <action
+            android:id="@+id/action_rezerwacje_to_strona"
+            app:destination="@id/strona" />
+    </fragment>
+    <fragment
+        android:id="@+id/skladnik"
+        android:name="com.example.pizzeria_aplikacja.Skladnik"
+        android:label="fragment_skladnik"
+        tools:layout="@layout/fragment_skladnik" >
+        <action
+            android:id="@+id/action_skladnik_to_strona"
+            app:destination="@id/strona" />
+        <action
+            android:id="@+id/action_skladnik_to_ustawienia"
+            app:destination="@id/ustawienia" />
+        <action
+            android:id="@+id/action_skladnik_to_danie"
+            app:destination="@id/danie" />
+    </fragment>
+    <fragment
+        android:id="@+id/danie"
+        android:name="com.example.pizzeria_aplikacja.Danie"
+        android:label="fragment_danie"
+        tools:layout="@layout/fragment_danie" >
+        <action
+            android:id="@+id/action_danie_to_skladnik"
+            app:destination="@id/skladnik" />
+        <action
+            android:id="@+id/action_danie_to_ustawienia"
+            app:destination="@id/ustawienia" />
+        <action
+            android:id="@+id/action_danie_to_strona"
+            app:destination="@id/strona" />
     </fragment>
 </navigation>

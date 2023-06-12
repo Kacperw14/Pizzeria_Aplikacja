@@ -22,6 +22,11 @@ import javax.mail.*
 import javax.mail.internet.InternetAddress
 import javax.mail.internet.MimeMessage
 
+
+var uzytkownicy: MutableList<Konto> = mutableListOf()
+lateinit var zalogowany: Konto
+var userConnection: Connection? = null
+
 enum class Stanowisko {
     BRAK,
     KIEROWNIK,
@@ -35,6 +40,7 @@ class Konto(
     _email: String,
     _haslo: String,
     _stanowisko: Int
+
 ) : Fragment() {
     var imie: String = _imie
     var nazwisko: String = _nazwisko
@@ -46,10 +52,10 @@ class Konto(
         fun Szukaj() { //TODO szukaj po usunieciu uzytkownika
             try {
                 val user = "\"UZYTKOWNICY\""
-                val connection = getConnection(user)
-                if (connection != null) {
+                userConnection = getConnection(user)
+                if (userConnection != null) {
                     val sql = mutableListOf<String>()
-                    for (i in 1 until 3) {
+                    for (i in 1 until 4) {
                         sql.add("SELECT IMIE FROM PRACOWNICY WHERE ID_PRACOWNIKA = $i")
                         sql.add("SELECT NAZWISKO FROM PRACOWNICY WHERE ID_PRACOWNIKA = $i")
                         sql.add("SELECT EMAIL FROM PRACOWNICY WHERE ID_PRACOWNIKA = $i")
@@ -63,41 +69,39 @@ class Konto(
                     parametry.add("HASLO")
                     parametry.add("STANOWISKO")
                     val dane = mutableListOf<String>()
-                    val stanowisko: Int = 1
+                    //val stanowisko: Int = 1
                     try {
                         var statement: Statement? = null
                         var resultSet: ResultSet? = null
-                         for (s in 0 until sql.size step 5) {
-                             for (i in parametry.indices) {
-                                 statement = connection.prepareStatement(sql[i + s])
-                                 resultSet = statement.executeQuery()
-                                 if (resultSet.next()) {
-                                     dane.add(resultSet.getString(parametry[i]))
-                                 }
-                             }
-                             if (statement == null || resultSet == null || dane.size == 0) {
-                                 break
-                             } else {
-                                 uzytkownicy.add(
-                                     Konto(
-                                         dane[0 + s],
-                                         dane[1 + s],
-                                         dane[2 + s],
-                                         dane[3 + s],
-                                         stanowisko
-                                     )
-                                 )
-                                 dane.clear()
-                             }
-                         }
+                        for (s in 0 until sql.size step 5) {
+                            for (i in parametry.indices) {
+                                statement = userConnection!!.prepareStatement(sql[i + s])
+                                resultSet = statement.executeQuery()
+                                if (resultSet.next()) {
+                                    dane.add(resultSet.getString(parametry[i]))
+                                }
+                            }
+                            if (statement == null || resultSet == null || dane.size == 0) {
+                                break
+                            } else {
+                                uzytkownicy.add(
+                                    Konto(
+                                        dane[0],
+                                        dane[1] ,
+                                        dane[2],
+                                        dane[3],
+                                        dane[4].toInt()
+                                       // stanowisko
+                                    )
+                                )
+                                dane.clear()
+                            }
+                        }
                         resultSet?.close()
                         statement?.close()
-                        connection.close()
-
                     } catch (e: SQLException) {
                         e.printStackTrace()
                     }
-
                 }
             } catch (e: SQLException) {
                 e.printStackTrace()
@@ -107,8 +111,6 @@ class Konto(
 
     }
 }
-
-var uzytkownicy: MutableList<Konto> = mutableListOf()
 
 class Rejestracja : Fragment() {
 
@@ -153,7 +155,8 @@ class Rejestracja : Fragment() {
             wyborStanowiska = Stanowisko.KELNER
             kelnerButton.backgroundTintList = ColorStateList.valueOf(nowyKolor)
             kucharzButton.backgroundTintList = ColorStateList.valueOf(szaryKolor)
-            kierownikButton.backgroundTintList = ColorStateList.valueOf(szaryKolor) //TODO ramka znika
+            kierownikButton.backgroundTintList =
+                ColorStateList.valueOf(szaryKolor) //TODO ramka znika
         }
         kucharzButton.setOnClickListener() {
             wyborStanowiska = Stanowisko.KUCHARZ
@@ -181,12 +184,11 @@ class Rejestracja : Fragment() {
             Toast.makeText(requireContext(), "Proszę czekać", Toast.LENGTH_SHORT).show()
             if (haslo == potwierdzHaslo) {
 
-                lifecycleScope.launch {
-                    sendConfirmationEmail(email, kod.toString())
-                }
+//                lifecycleScope.launch {
+//                    sendConfirmationEmail(email, kod.toString())
+//                }
                 //if(kod == editKod){}//TODO sprawdz kod email
 
-                var kod = 1234
                 try {
                     val user = "\"UZYTKOWNICY\""
                     val connection = getConnection(user)
