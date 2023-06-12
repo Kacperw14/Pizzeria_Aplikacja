@@ -14,12 +14,24 @@ import java.sql.Connection
 import java.sql.DriverManager
 import java.sql.SQLException
 
-class Login : Fragment() {
+var czySzukac: Boolean = true
+private val driver = "oracle.jdbc.driver.OracleDriver"
+private val url = "jdbc:oracle:thin:@192.168.0.38:1521:orcl"
+private var user = ""
+private val password = "\"1234\""
 
-    private val driver = "oracle.jdbc.driver.OracleDriver"
-    private val url = "jdbc:oracle:thin:@192.168.0.38:1521:orcl"
-    private val user = "\"KELNER\""
-    private val password = "\"1234\""
+public fun getConnection(user: String): Connection? {
+    var connection: Connection? = null
+    Class.forName(driver)
+    try {
+        connection = DriverManager.getConnection(url, user, password)
+    } catch (e: SQLException) {
+        e.printStackTrace()
+    }
+    return connection
+}
+
+class Login : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -30,22 +42,14 @@ class Login : Fragment() {
         val button = view.findViewById<Button>(R.id.button3)
         imageView.setImageResource(R.drawable.pizza)
 
+        if (czySzukac) {
+            Konto.Szukaj()
+        }
 
         button.setOnClickListener {
             findNavController().navigate(R.id.action_login_to_rejestracja)
         }
         return view
-    }
-
-    private fun getConnection(): Connection? {
-        var connection: Connection? = null
-        Class.forName(driver)
-        try {
-            connection = DriverManager.getConnection(url, user, password)
-        } catch (e: SQLException) {
-            e.printStackTrace()
-        }
-        return connection
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -58,29 +62,55 @@ class Login : Fragment() {
     }
 
     private fun loginUser() {
+        Toast.makeText(requireContext(), "Proszę czekać", Toast.LENGTH_SHORT).show()
 
         val email = view?.findViewById<EditText>(R.id.editTextUsername)?.text.toString()
         val haslo = view?.findViewById<EditText>(R.id.editTextPassword)?.text.toString()
 
+        for (konto in uzytkownicy) {
+            if (email == konto.email && haslo == konto.haslo) {
+                val connection: Connection?
+                try {
+                    when (konto.stanowisko) {
+                        Stanowisko.KIEROWNIK -> {
+                            user = "\"KIEROWNIK\""
+                        }
 
-        // Example login logic
-        //if (email == "admin" && haslo == "p") {
-        if (true) {
-            val connection: Connection?
-            try {
-                connection = getConnection()
-                if (connection != null) {
-                    Toast.makeText(requireContext(), "Connected", Toast.LENGTH_SHORT).show()
-                    Toast.makeText(requireContext(), "Login successful", Toast.LENGTH_SHORT).show()
-                    findNavController().navigate(R.id.action_login_to_rejestracja)
-                } else Toast.makeText(requireContext(), "Login failed", Toast.LENGTH_SHORT).show()
-                connection?.close()
-            } catch (e: SQLException) {
-                Toast.makeText(requireContext(), e.toString(), Toast.LENGTH_SHORT).show()
+                        Stanowisko.KUCHARZ -> {
+                            user = "\"KUCHARZ\""
+                        }
+
+                        Stanowisko.KELNER -> {
+                            user = "\"KELNER\""
+                        }
+
+                        else -> {}
+                    }
+                    connection = getConnection(user)
+                    if (connection != null) {
+                        Toast.makeText(requireContext(), "Połączono jako $user", Toast.LENGTH_SHORT)
+                            .show()
+                        findNavController().navigate(R.id.action_login_to_rejestracja) //TODO zmiana na homepage
+                        return
+                    } else {
+                        Toast.makeText(
+                            requireContext(),
+                            "Połączenie z bazą danych nie powiodło się", Toast.LENGTH_SHORT
+                        ).show()
+                    }
+                } catch (e: SQLException) {
+                    Toast.makeText(requireContext(), e.toString(), Toast.LENGTH_SHORT).show()
+                }
             }
-        } else {
-            Toast.makeText(requireContext(), "Login failed", Toast.LENGTH_SHORT).show()
         }
+        Toast.makeText(
+            requireContext(),
+            "Logowanie nie powiodło się, błędny login lub hasło",
+            Toast.LENGTH_SHORT
+        )
+            .show()
     }
 }
 
+
+//connection?.close() //TODO zamknij connect

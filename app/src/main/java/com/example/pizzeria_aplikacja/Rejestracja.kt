@@ -1,5 +1,7 @@
 package com.example.pizzeria_aplikacja
 
+import android.app.DownloadManager.Query
+import android.content.res.ColorStateList
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -8,15 +10,115 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import kotlinx.coroutines.launch
+import java.sql.Connection
+import java.sql.ResultSet
+import java.sql.SQLException
+import java.sql.Statement
 import javax.mail.*
 import javax.mail.internet.InternetAddress
 import javax.mail.internet.MimeMessage
 
+enum class Stanowisko {
+    BRAK,
+    KIEROWNIK,
+    KUCHARZ,
+    KELNER
+}
+
+class Konto(
+    _imie: String,
+    _nazwisko: String,
+    _email: String,
+    _haslo: String,
+    _stanowisko: Int
+) : Fragment() {
+    var imie: String = _imie
+    var nazwisko: String = _nazwisko
+    var email: String = _email
+    var haslo: String = _haslo
+    var stanowisko: Stanowisko = Stanowisko.values()[_stanowisko]
+
+    companion object {
+        fun Szukaj() { //TODO szukaj po usunieciu uzytkownika
+            try {
+                val user = "\"UZYTKOWNICY\""
+                val connection = getConnection(user)
+                if (connection != null) {
+                    val sql = mutableListOf<String>()
+                    for (i in 1 until 3) {
+                        sql.add("SELECT IMIE FROM PRACOWNICY WHERE ID_PRACOWNIKA = $i")
+                        sql.add("SELECT NAZWISKO FROM PRACOWNICY WHERE ID_PRACOWNIKA = $i")
+                        sql.add("SELECT EMAIL FROM PRACOWNICY WHERE ID_PRACOWNIKA = $i")
+                        sql.add("SELECT HASLO FROM PRACOWNICY WHERE ID_PRACOWNIKA = $i")
+                        sql.add("SELECT STANOWISKO FROM PRACOWNICY WHERE ID_PRACOWNIKA = $i")
+                    }
+                    val parametry = mutableListOf<String>()
+                    parametry.add("IMIE")
+                    parametry.add("NAZWISKO")
+                    parametry.add("EMAIL")
+                    parametry.add("HASLO")
+                    parametry.add("STANOWISKO")
+                    val dane = mutableListOf<String>()
+                    val stanowisko: Int = 1
+                    try {
+                        var statement: Statement? = null
+                        var resultSet: ResultSet? = null
+                         for (s in 0 until sql.size step 5) {
+                             for (i in parametry.indices) {
+                                 statement = connection.prepareStatement(sql[i + s])
+                                 resultSet = statement.executeQuery()
+                                 if (resultSet.next()) {
+                                     dane.add(resultSet.getString(parametry[i]))
+                                 }
+                             }
+                             if (statement == null && resultSet == null) {
+                                 break
+                             } else {
+                                 uzytkownicy.add(
+                                     Konto(
+                                         dane[0 + s],
+                                         dane[1 + s],
+                                         dane[2 + s],
+                                         dane[3 + s],
+                                         stanowisko
+                                     )
+                                 )
+                             }
+                         }
+                        resultSet?.close()
+                        statement?.close()
+                        connection.close()
+
+                    } catch (e: SQLException) {
+                        e.printStackTrace()
+                    }
+
+                }
+            } catch (e: SQLException) {
+                e.printStackTrace()
+            }
+            czySzukac = false
+        }
+
+    }
+}
+
+var uzytkownicy: MutableList<Konto> = mutableListOf()
 
 class Rejestracja : Fragment() {
+
+    lateinit var imie: String
+    lateinit var nazwisko: String
+    lateinit var email: String
+    lateinit var haslo: String
+    lateinit var potwierdzHaslo: String
+    var kod = 1234
+    var wyborStanowiska: Stanowisko = Stanowisko.BRAK
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -37,35 +139,81 @@ class Rejestracja : Fragment() {
 
         val buttonRegister = view.findViewById<Button>(R.id.button4)
         buttonRegister.setOnClickListener {
-            // Wykonaj odpowiednie działania po kliknięciu przycisku rejestracji
             registerUser()
+        }
+        val kelnerButton = view.findViewById<Button>(R.id.button5)
+        val kucharzButton = view.findViewById<Button>(R.id.button6)
+        val kierownikButton = view.findViewById<Button>(R.id.button7)
+
+        val szaryKolor = ContextCompat.getColor(requireContext(), R.color.gray)
+        val nowyKolor = ContextCompat.getColor(requireContext(), R.color.orange)
+
+        kelnerButton.setOnClickListener() {
+            wyborStanowiska = Stanowisko.KELNER
+            kelnerButton.backgroundTintList = ColorStateList.valueOf(nowyKolor)
+            kucharzButton.backgroundTintList = ColorStateList.valueOf(szaryKolor)
+            kierownikButton.backgroundTintList = ColorStateList.valueOf(szaryKolor) //TODO ramka znika
+        }
+        kucharzButton.setOnClickListener() {
+            wyborStanowiska = Stanowisko.KUCHARZ
+            kucharzButton.backgroundTintList = ColorStateList.valueOf(nowyKolor)
+            kelnerButton.backgroundTintList = ColorStateList.valueOf(szaryKolor)
+            kierownikButton.backgroundTintList = ColorStateList.valueOf(szaryKolor)
+        }
+        kierownikButton.setOnClickListener() {
+            wyborStanowiska = Stanowisko.KIEROWNIK
+            kierownikButton.backgroundTintList = ColorStateList.valueOf(nowyKolor)
+            kucharzButton.backgroundTintList = ColorStateList.valueOf(szaryKolor)
+            kelnerButton.backgroundTintList = ColorStateList.valueOf(szaryKolor)
         }
     }
 
     private fun registerUser() {
-
-        val imie = view?.findViewById<EditText>(R.id.editTextImie)?.text.toString()
-        val nazwisko = view?.findViewById<EditText>(R.id.editTextNazwisko)?.text.toString()
-        val email = view?.findViewById<EditText>(R.id.editTextEmail)?.text.toString()
-        val haslo = view?.findViewById<EditText>(R.id.editTextPassword)?.text.toString()
-        val potwierdzHaslo =
+        val connection: Connection?
+        imie = view?.findViewById<EditText>(R.id.editTextImie)?.text.toString()
+        nazwisko = view?.findViewById<EditText>(R.id.editTextNazwisko)?.text.toString()
+        email = view?.findViewById<EditText>(R.id.editTextEmail)?.text.toString()
+        haslo = view?.findViewById<EditText>(R.id.editTextPassword)?.text.toString()
+        potwierdzHaslo =
             view?.findViewById<EditText>(R.id.editTextConfirmPassword)?.text.toString()
-        val kod = 1234;
-
-        // Sprawdź, czy pola są wypełnione
-        if (email.isNotEmpty() && haslo.isNotEmpty() && haslo == potwierdzHaslo) {
+        if (email.isNotEmpty() && haslo.isNotEmpty() && imie.isNotEmpty() && nazwisko.isNotEmpty() && potwierdzHaslo.isNotEmpty() && wyborStanowiska != Stanowisko.BRAK) {
+            Toast.makeText(requireContext(), "Proszę czekać", Toast.LENGTH_SHORT).show()
             if (haslo == potwierdzHaslo) {
+
                 lifecycleScope.launch {
-                    sendConfirmationEmail(email.toString(), kod.toString())
+                    sendConfirmationEmail(email, kod.toString())
                 }
-                //if(kod == editKod){}
-                Toast.makeText(requireContext(), "Registration successful", Toast.LENGTH_SHORT)
+                //if(kod == editKod){}//TODO sprawdz kod email
+
+                var kod = 1234
+                try {
+                    val user = "\"UZYTKOWNICY\""
+                    val connection = getConnection(user)
+                    if (connection != null) {
+                        val sql =
+                            "BEGIN \"DODAJ_PRACOWNIKA\"('$imie', '$nazwisko', '$email', '$haslo', ${wyborStanowiska.ordinal}); END;"
+                        val statement = connection.prepareStatement(sql)
+                        try {
+                            statement.execute()
+                        } catch (e: SQLException) {
+                            e.printStackTrace()
+                        }
+                        connection.close()
+                    }
+                } catch (e: SQLException) {
+                    e.printStackTrace()
+                }
+                uzytkownicy.add(Konto(imie, nazwisko, email, haslo, wyborStanowiska.ordinal))
+
+                Toast.makeText(requireContext(), "Rejestracja powiodła się!", Toast.LENGTH_SHORT)
                     .show()
                 findNavController().navigate(R.id.action_rejestracja_to_login)
-            } else Toast.makeText(requireContext(), "Podane hasło się różni", Toast.LENGTH_SHORT)
-                .show()
+            } else {
+                Toast.makeText(requireContext(), "Podane hasło się różni", Toast.LENGTH_SHORT)
+                    .show()
+            }
         } else {
-            Toast.makeText(requireContext(), "Please fill in all fields", Toast.LENGTH_SHORT).show()
+            Toast.makeText(requireContext(), "Wypełnij wszystkie pola", Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -93,10 +241,7 @@ class Rejestracja : Fragment() {
             try {
                 Transport.send(message)
             } catch (e: MessagingException) {
-                var x = view?.findViewById<EditText>(R.id.editTextImie)
-                x?.setText(e.toString())
                 e.printStackTrace()
-                Toast.makeText(requireContext(), e.toString(), Toast.LENGTH_SHORT).show()
             }
         } catch (e: MessagingException) {
             e.printStackTrace()
