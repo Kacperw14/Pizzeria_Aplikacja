@@ -75,7 +75,7 @@ class Konto(
                                      dane.add(resultSet.getString(parametry[i]))
                                  }
                              }
-                             if (statement == null && resultSet == null) {
+                             if (statement == null || resultSet == null || dane.size == 0) {
                                  break
                              } else {
                                  uzytkownicy.add(
@@ -87,6 +87,7 @@ class Konto(
                                          stanowisko
                                      )
                                  )
+                                 dane.clear()
                              }
                          }
                         resultSet?.close()

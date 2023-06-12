@@ -42,10 +42,6 @@ class Login : Fragment() {
         val button = view.findViewById<Button>(R.id.button3)
         imageView.setImageResource(R.drawable.pizza)
 
-        if (czySzukac) {
-            Konto.Szukaj()
-        }
-
         button.setOnClickListener {
             findNavController().navigate(R.id.action_login_to_rejestracja)
         }
@@ -54,6 +50,10 @@ class Login : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        if (czySzukac) {
+            Konto.Szukaj()
+        }
 
         val buttonLogin = view.findViewById<Button>(R.id.buttonLogin)
         buttonLogin.setOnClickListener {
